@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &152792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 452790}
+  - 114: {fileID: 11452794}
+  - 114: {fileID: 11452796}
+  - 114: {fileID: 11469174}
+  m_Layer: 0
+  m_Name: TapdaqV1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &452790
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11452794
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ce0386cac24b4900a2e79f519f01d0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11452796
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5907eb7048cd4245ab6b2ef4ee07c72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showLogs: 0
+  testMode: 0
+  applicationID: 
+  clientKey: 
+  frequency: 1
+  duration: 2
+  interstitials: 1
+  nativeSquareLarge: 0
+  nativeSquareMedium: 0
+  nativeSquareSmall: 0
+  nativeNewsfeedPortraitLarge: 0
+  nativeNewsfeedPortraitMedium: 0
+  nativeNewsfeedPortraitSmall: 0
+  nativeNewsfeedLandscapeLarge: 0
+  nativeNewsfeedLandscapeMedium: 0
+  nativeNewsfeedLandscapeSmall: 0
+  nativeFullscreenPortraitLarge: 0
+  nativeFullscreenPortraitMedium: 0
+  nativeFullscreenPortraitSmall: 0
+  nativeFullscreenLandscapeLarge: 0
+  nativeFullscreenLandscapeMedium: 0
+  nativeFullscreenLandscapeSmall: 0
+  nativeStripPortraitLarge: 0
+  nativeStripPortraitMedium: 0
+  nativeStripPortraitSmall: 0
+  nativeStripLandscapeLarge: 0
+  nativeStripLandscapeMedium: 0
+  nativeStripLandscapeSmall: 0
+--- !u!114 &11469174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5c62f91b2aac455bab4b02fdc90a07f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 152792}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
